@@ -94,6 +94,22 @@ header nav ul li a {
   float: left;
   width: 65%;
 }
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.single-img{
+  padding: 0 20px 20px;
+
+}
+ .img::hover{
+   opacity: .6;
+   transition: 1s;
+ }
 
 .text-left {
   text-align: left;
@@ -129,7 +145,7 @@ header nav ul li a {
 
 .contact-info h4 {
   color: #faf5f9;
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
 }
 
